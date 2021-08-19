@@ -1,0 +1,58 @@
+body {
+  background-image: linear-gradient(
+      rgba(23, 24, 34, 0.6),
+      rgba(23, 24, 34, 0.6)
+    ),
+    url("../images/water-blue.jpg");
+  background-repeat: no-repeat;
+}
+
+.title-head {
+  color: white;
+}
+
+.desc-head {
+  color: white;
+}
+
+.del-head {
+  color: white;
+}
+
+hr {
+  border-top: 1px solid white;
+}
+
+.task-title {
+  color: #0c163b;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.done {
+  text-decoration: line-through;
+  background-color: thistle;
+}
+
+.task-status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.close,
+.form-check-input {
+  transition: all 0.1s;
+  padding: 0px 5px;
+}
+.close:hover,
+.form-check-input:hover {
+  padding: 1px;
+  transform: scale(1.4);
+}
+
+#tasks {
+  text-align: justify;
+  padding: 4px;
+}
