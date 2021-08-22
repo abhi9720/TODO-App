@@ -15,6 +15,10 @@ body {
 .title-head {
   color: white;
 }
+#logo-icon {
+  width: 30px;
+  height: 30px;
+}
 
 .desc-head {
   color: white;
