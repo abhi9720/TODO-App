@@ -59,6 +59,8 @@ function getTasks() {
   let tasksView = document.getElementById("tasks");
   tasksView.innerHTML = "";
 
+  if (!tasks || tasks.length == 0) return;
+
   for (let i = 0; i < tasks.length; i++) {
     let title = tasks[i].title;
     let description = tasks[i].description;
