@@ -13,7 +13,13 @@ background-image: linear-gradient( to right top, #051937, #004d7a, #008793, #00b
     min-height: 94vh;
 }
 
-
+.title{
+     display: flex;
+  flex-direction: column;
+     max-height: 450px;
+    overflow-y: scroll;
+    flex-wrap: wrap;
+}
 
 .title-head {
   color: white;
